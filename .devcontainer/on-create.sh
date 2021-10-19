@@ -37,13 +37,13 @@ az login --service-principal -t $AZURE_TENANT -u $AZURE_APP_ID -p $AZURE_PASSWOR
 az account set -s $AZURE_SUB_ID
 
 # set defaults
-az config set core.output=table
+# az config set core.output=table
 
 ### AWS
 # set output to table
-aws configure set output table
+# aws configure set output table
 
 # install PowerShell modules
-pwsh -Command "& {Install-Module -Name Trackyon.Utils, VSTeam, powershell-yaml -Force}"
+# pwsh -Command "& {Install-Module -Name Trackyon.Utils, VSTeam, powershell-yaml -Force}"
  
 echo "on-create complete" >> ~/status
