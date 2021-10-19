@@ -65,6 +65,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8000,
+		8080,
 		9411,
 		30000,
 		30001
@@ -74,6 +75,7 @@
 		"6379": { "label": "dapr_Redis"},
 		"6443": { "label": "k3d_Api"},
 		"8000": { "label": "Tye" },
+		"8080": { "label": "dapr_Dashbaord" },
 		"9411": { "label": "dapr_Zipkin" },
 		"30000":{ "label": "k3d-Demo" },
 		"30001": { "label": "k3d-Zipkin"},
