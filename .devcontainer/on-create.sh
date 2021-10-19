@@ -24,10 +24,10 @@ k3d cluster create demo-cluster --registry-use k3d-registry.localhost:5500 --net
 # kubectl run mynginx --image k3d-registry.localhost:5500/mynginx:v0.1
 
 # initialize dapr
-dapr init
+# dapr init
 
 # initialize dapr in K8s
-dapr init -k
+# dapr init -k
 
 ### Azure
 # log into azure cli
