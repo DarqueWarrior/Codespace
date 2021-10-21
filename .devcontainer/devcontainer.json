@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.192.0/containers/codespaces-linux
 {
 	"name": "GitHub Codespaces (Default)",
-	"image": "darquewarrior/basecodespace:1.0.0",
+	"image": "ubuntu:20.04",
 	// "onCreateCommand": "/bin/bash -c .devcontainer/on-create.sh",
 	"remoteEnv": { "PATH": "${containerEnv:PATH}:/home/codespace/.dapr/bin" },
 	"settings": {
